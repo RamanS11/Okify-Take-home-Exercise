@@ -1,12 +1,3 @@
-dictStatus = {
-    0: "Requested",
-    1: "Missing info",
-    2: "Processed",
-    3: "Activated",
-    4: "Canceled"
-}
-
-
 def get_project_status(inputStatus: list):
     """
     Function that output the project status following the logic defined in the exercise statement.
