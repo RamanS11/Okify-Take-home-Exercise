@@ -1,12 +1,12 @@
 def get_project_status(inputStatus: list):
     """
     Function that output the project status following the logic defined in the exercise statement.
-    :param inputStatus: Dictionary containing the status of all the tasks of a project (from 0 to N)
+    :param inputStatus: List containing the status of all the tasks of a project (from 0 to N)
     :return: One of the values stated by dictStatus.
     """
 
     # Make sure input value given is a list
-    assert type(inputStatus) is list
+    assert type(inputStatus) is list, "Input variable must be a list"
 
     # If all tasks are in the same status, the project is also in that status
     if len(set(inputStatus)) == 1:
